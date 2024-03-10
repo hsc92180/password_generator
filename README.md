@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## [Hosted link](https://geekfood-hsc92180.vercel.app/)
+## [Hosted link](https://password-generator-hsc92180.vercel.app/)
 
 ## Available Scripts
 
