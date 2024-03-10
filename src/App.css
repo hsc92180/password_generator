@@ -1,38 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
+  margin-inline: auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);  
+}
+
+.App h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+}
+
+.container {
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.password_container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.password_container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+}
+
+.password_container button {
+  padding: 10px;
+  height: 100%;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: rgb(62, 172, 250);
+  color: white;
+  text-transform: uppercase;
+}
+
+.password_container button:hover, .password_container button i:hover {
+  background-color: rgb(59, 121, 255);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input_container input {
+  padding: 10px;
+  margin-left: 10px;
+  width: 60px;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+}
+
+.char_limit {
+  font-weight: bold;
+}
+
+.checkBox_container {
+  margin-top: 20px;
+}
+
+.checkBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkBox_container input {
+  margin: 0px 5px 0px 10px;
+}
+
+.checkBox_container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background-color: rgb(62, 172, 250);
+  color: white;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.checkBox_container button:hover {
+  background-color: rgb(23, 144, 236);
+  color: white;
 }
